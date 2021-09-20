@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const version = '1.0.0';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App ver={version}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
