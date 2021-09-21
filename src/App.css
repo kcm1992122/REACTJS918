@@ -48,11 +48,11 @@
 
    }
 
-   @media ( min-width: 700px)
+   @media ( min-width: 600px)
    {
      .responsive{
        display:inline-block;
-       width:25%;
+       width:24%;
      }
     }
 
